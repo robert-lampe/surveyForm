@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: #ffe0cc;
+}
+
+
+/* The title size is set using vw, which is viewport width,
+makes the text a scalable percentage of the viewport.
+The whitespace being set to nowrap in conjuction with the
+vw makes the text scale in size depending on the viewport window rather than
+wrap around and stack when the window shrinks  */
+
+#title {
+  font-family: "Prata" , serif;
+  letter-spacing: 2px;
+  font-size: 4vw;
+  white-space: nowrap;
+}
+
+#description {
+  font-family: "Prata" , serif;
+  letter-spacing: 1px;
+}
+
+
+#form-outer {
+  font-family: "Prata" , serif;
+  box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, .16);
+  margin: auto;
+  border: 2px solid #ffb366;
+  background: #ffd9b3;
+  width: 60%;
+
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}

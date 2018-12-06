@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey</title>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1 id="title">Important Corporate Survey</h1>
+    <p id="description">We care deeply about humans, and want to know your
+    deepest desires, so please take a moment to fill out this questionnaire.</p>
+
+    <br>
+
+    <div id="form-outer">
+
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <input autofocus id="name" name="name" type="text" class="input-field" placeholder="Enter name here" required>
+      <br>
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" name="email" type="email" class="input-field" placeholder="Enter email here" required>
+      <br>
+      <label id="smell-label" for="smell">Enter your favorite smell:</label>
+      <input id="smell" name="smell" type="text" class="input-field" placeholder="Enter smell here" required>
+      <br>
+      <label id="number-label" for="number">Age:</label>
+      <input id="number" name="number" type="number" class="input-field" placeholder="Enter age here" min="1" max="130" required>
+      <br>
+      <label for="dropdown">Please select a food:</label>
+      <select id="dropdown" name="dropdown" >
+        <option value="select">-- Please make a selection --</option>
+        <option value="peanut">Peanut</option>
+        <option value="corn">Corn</option>
+        <option value="cheese">Cheese</option></select><br>
+
+      <label for="animal">Select an animal:</label><br>
+      <input name="radio-buttons" type="radio" value="1" class="animal"><label>Chinchilla</label><br>
+      <input name="radio-buttons" type="radio" value="2" class="animal"><label>Wombat</label><br>
+    <input name="radio-buttons" type="radio" value="3" class="animal"><label>Dog with floppy ears</label><br>
+
+    <label for="color">Select a color:</label><br>
+    <input name="color" value="1" type="checkbox"><label>Orange</label><br>
+    <input name="color" value="2" type="checkbox"><label>Pink</label><br>
+    <input name="color" value="2" type="checkbox"><label>Brown</label>
+
+    <br>
+
+    <textarea id="comments" class="input-field" placeholder="List all the curse words you know here"></textarea>
+
+       <br> <button id="submit" type="submit">Submit</button><br><br>
+
+      </form>
+
+      </div>
+
+    </body>
+
+</html>
